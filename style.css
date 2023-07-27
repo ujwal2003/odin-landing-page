@@ -131,3 +131,44 @@ a {
     padding-left: 50vw;
     font-size: 20px;
 }
+
+/* call to action */
+.action-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    background-color: #3882F6;
+    margin: 40px 250px;
+    border-radius: 20px;
+    height: 20vh;
+    padding: 10px 80px;
+    color: #F9FAF8;
+}
+
+.action-button button {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-size: 14px;
+    width: 8vw;
+    height: 4vh;
+    border-style: solid;
+    transition: all 0.3s ease-in-out;
+}
+
+.action-button button:hover {
+    width: 9vw;
+    height: 5vh;
+    background-color: #7d9ac9e1;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.267);
+    font-weight: bold;
+}
