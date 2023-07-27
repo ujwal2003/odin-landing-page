@@ -110,3 +110,24 @@ a {
 .info p {
     text-align: center;
 }
+
+/* quote */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 60vw;
+}
+
+.quote strong {
+    padding-left: 50vw;
+    font-size: 20px;
+}
