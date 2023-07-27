@@ -172,3 +172,13 @@ a {
     box-shadow: 0 3px 10px rgba(255, 255, 255, 0.267);
     font-weight: bold;
 }
+
+/* footer */
+.footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB
+}
