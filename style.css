@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', arial;
 }
 
 .box {
@@ -26,10 +27,17 @@ body {
     gap: 50px;
 }
 
-a {
+.header-links a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-links a:hover {
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.267);
 }
 
 /* title */
