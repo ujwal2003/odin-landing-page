@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #1F2937;
+}
+
+.header-logo img {
+    height: auto;
+    width: 45%;
+}
+
+.header-links  {
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
