@@ -13,5 +13,29 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.header-logo img {
+    height: auto;
+    width: 45%;
+}
+
+.header-links  {
+    display: flex;
+    gap: 50px;
+}
+
+.header-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-links a:hover {
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.267);
 }
